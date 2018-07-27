@@ -1,6 +1,6 @@
 <h1>Airport Baggage Router</h1>
 
-The Denver International Airport has decided to give an automated baggage system 
+Denver International Airport has decided to give an automated baggage system 
 another shot. The hardware and tracking systems from the previous attempt are 
 still in place, they just need a system to route the baggage. The system will 
 route baggage checked, connecting, and terminating in Denver. You have been 
