@@ -92,6 +92,8 @@ already installed.
 
 >  ./gradlew clean build test
 
+> chmod 755 ./gradlew
+
 or if you already have gradle installed
 
 >   gradle clean build test
