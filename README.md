@@ -20,6 +20,7 @@ time.
 
 <pre>
 .
+├── README.md
 ├── airport-baggage.in
 ├── build.gradle
 ├── gradle
@@ -29,29 +30,28 @@ time.
 ├── gradle.properties
 ├── gradlew
 ├── gradlew.bat
-├── README  (THIS FILE)
 ├── settings.gradle
 └── src
     ├── main
-    │   ├── java
-    │   │   └── com
-    │   │       └── jaqen
-    │   │           ├── AirPortBaggage.java
-    │   │           ├── AirPortBaggageRouter.java
-    │   │           ├── Bag.java
-    │   │           ├── ConveyorSystem.java
-    │   │           ├── Departure.java
-    │   │           ├── Graph.java
-    │   │           ├── InvalidInputException.java
-    │   │           ├── Node.java
-    │   │           └── RouteBuilder.java
-    │   └── resources
+    │   └── java
+    │       └── com
+    │           └── fletcher
+    │               ├── AirPortBaggage.java
+    │               ├── AirPortBaggageRouter.java
+    │               ├── Bag.java
+    │               ├── ConveyorSystem.java
+    │               ├── Departure.java
+    │               ├── Graph.java
+    │               ├── InvalidInputException.java
+    │               ├── Node.java
+    │               └── RouteBuilder.java
     └── test
-        ├── java
-        │   └── com
-        │       └── jaqen
-        │           └── AirPortBaggageTest.java
-        └── resources
+        └── java
+            └── com
+                └── fletcher
+                    └── AirPortBaggageTest.java
+
+11 directories, 19 files
 </pre>
 
 Java 1.8 is required to run this program.  
