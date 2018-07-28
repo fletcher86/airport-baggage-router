@@ -151,6 +151,8 @@ Produces the following stdout:
 0005 A7 A8 A9 A10 A5 BaggageClaim : 12
 </pre>
 
+Also the program generates an output file written to 'airport-baggage.out'.  The contents of this output file are identical to stdout.
+
 The contents of input file: airport-baggage.in.
 
 > cat airport-baggage.in
