@@ -67,16 +67,18 @@ $ gradle -v
 
 <pre>
 ------------------------------------------------------------
-Gradle 4.8.1
+Gradle 4.9
 ------------------------------------------------------------
 
-Build time:   2018-06-21 07:53:06 UTC
-Revision:     0abdea078047b12df42e7750ccba34d69b516a22
+Build time:   2018-07-16 08:14:03 UTC
+Revision:     efcf8c1cf533b03c70f394f270f46a174c738efc
 
+Kotlin DSL:   0.18.4
+Kotlin:       1.2.41
 Groovy:       2.4.12
 Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
 JVM:          1.8.0_171 (Oracle Corporation 25.171-b11)
-OS:           Linux 4.10.0-38-generic amd64
+OS:           Mac OS X 10.13.5 x86_64
 </pre>
 
 $ java -version
