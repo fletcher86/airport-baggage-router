@@ -54,11 +54,6 @@ time.
         └── resources
 </pre>
 
-<h3>To clone this repo</h3>
-<pre>
-git clone https://github.com/fletcher86/airport-baggage-router.git
-</pre>
-
 Java 1.8 is required to run this program.  
 
 Below is the gradle version, java version, etc.
@@ -88,20 +83,31 @@ Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
 </pre>
 
+
+<h3>To clone this repo</h3>
+<pre>
+git clone https://github.com/fletcher86/airport-baggage-router.git
+</pre>
+
+> cd airport-baggage-router
+
 To build the code and run unit test execute following command 
 (gradle wrapper -> gradlew) on command line if you don't have gradle 
 already installed.
 
 >  ./gradlew clean build test
 
-> chmod 755 ./gradlew
+if 'gradlew' isn't executable.
+
+>  chmod 755 ./gradlew
 
 or if you already have gradle installed
 
->   gradle clean build test
+>   gradle clean build 
    
 Produces the following output...
 <pre>
+ 
 > Task :clean UP-TO-DATE
 > Task :compileJava
 > Task :processResources NO-SOURCE
@@ -113,7 +119,6 @@ Produces the following output...
 > Task :testClasses
 
 > Task :test
-
 
 com.jaqen.AirPortBaggageTest > testYObjectGraph2() STANDARD_OUT
     Following are all different paths from 2 to 3
@@ -127,8 +132,9 @@ com.jaqen.AirPortBaggageTest > testZObjectGraph() STANDARD_OUT
 > Task :check
 > Task :build
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL in 2s
 5 actionable tasks: 4 executed, 1 up-to-date
+
 </pre>
 
 To run code, execute the following command on the command line.
